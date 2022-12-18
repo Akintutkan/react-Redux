@@ -14,7 +14,7 @@ function App() {
   useEffect(() => {
     dispatch(calculateTotals())
   },[cartItems])
-  useEffect(() => {dispatch(getCartItems())
+  useEffect(() => {dispatch(getCartItems("rastgele"))
 },[])
 if(isLoading) {
   return(
